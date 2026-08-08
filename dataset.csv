@@ -1,0 +1,505 @@
+employee_id,age,department,gender,education,years_experience,monthly_salary,performance_score,join_date,attrition
+1001,59,Sales,Female,Masters,29,61976.92,67.3,2012-01-01,No
+1002,49,Engineering,Male,Bachelors,13,74409.53,87.9,2012-01-06,No
+1003,35,Sales,Female,Masters,5,56131.4,50.8,2012-01-11,No
+1004,28,Engineering,Female,Masters,2,74543.14,60.1,2012-01-16,No
+1005,41,Engineering,Male,PhD,15,89872.95,,2012-01-21,No
+1006,59,Finance,Female,Bachelors,6,107012.15,50.3,2012-01-26,No
+1007,39,Engineering,Male,PhD,13,,67.9,2012-01-31,No
+1008,43,Sales,Male,Masters,8,68064.33,89.9,2012-02-05,Yes
+1009,31,Sales,Female,High School,14,71098.92,70.3,2012-02-10,No
+1010,31,Marketing,Male,Bachelors,20,66643.01,72.8,2012-02-15,No
+1011,44,HR,Female,Masters,34,91692.71,54.9,2012-02-20,No
+1012,56,Sales,Female,High School,1,50582.77,62.6,2012-02-25,No
+1013,44,Sales,Male,Bachelors,26,81432.3,65.5,2012-03-01,No
+1014,23,Marketing,Male,High School,1,79616.76,66.2,2012-03-06,No
+1015,42,Sales,Male,Masters,34,67482.23,85.4,2012-03-11,No
+1016,22,Marketing,Male,Bachelors,17,90817.81,76.7,2012-03-16,No
+1017,44,Marketing,Female,Bachelors,13,90408.07,56.7,2012-03-21,No
+1018,50,Sales,Female,Masters,19,69974.77,73.0,2012-03-26,No
+1019,58,Sales,Male,Bachelors,17,32106.61,76.0,2012-03-31,No
+1020,22,Finance,Female,Masters,9,52159.2,83.7,2012-04-05,No
+1021,41,Engineering,Female,Bachelors,24,99945.9,89.0,2012-04-10,No
+1022,53,Engineering,Female,Masters,1,55488.37,57.8,2012-04-15,No
+1023,32,Marketing,Female,Bachelors,24,58612.56,60.3,2012-04-20,No
+1024,42,Finance,Male,High School,32,74714.05,54.9,2012-04-25,No
+1025,45,Finance,Male,High School,30,97131.16,67.2,2012-04-30,No
+1026,47,Marketing,Female,High School,13,76541.2,75.6,2012-05-05,No
+1027,48,Engineering,Male,Masters,0,50699.22,81.8,2012-05-10,No
+1028,36,Sales,Male,Bachelors,15,61897.16,69.1,2012-05-15,No
+1029,35,Marketing,Male,PhD,2,49748.35,66.2,2012-05-20,No
+1030,23,Engineering,Female,Bachelors,34,68996.62,71.8,2012-05-25,No
+1031,57,Engineering,Female,Bachelors,5,88576.76,60.0,2012-05-30,Yes
+1032,27,Finance,Female,Bachelors,24,70798.23,95.1,2012-06-04,No
+1033,41,Sales,Male,Masters,12,87708.85,50.7,2012-06-09,No
+1034,29,Engineering,Female,PhD,33,112083.69,72.2,2012-06-14,No
+1035,59,Sales,Female,Masters,7,79269.6,94.3,2012-06-19,Yes
+1036,38,Engineering,Male,Bachelors,20,65230.83,70.1,2012-06-24,No
+1037,24,Sales,Female,Bachelors,33,91967.14,67.7,2012-06-29,Yes
+1038,45,Sales,Female,High School,3,57264.48,65.7,2012-07-04,No
+1039,34,Sales,Male,Bachelors,24,60333.37,67.8,2012-07-09,No
+1040,29,HR,Male,Masters,14,73438.47,86.5,2012-07-14,No
+1041,46,Marketing,Male,Bachelors,3,36477.28,43.5,2012-07-19,Yes
+1042,22,HR,Female,PhD,11,86278.23,88.4,2012-07-24,No
+1043,40,Finance,Female,Masters,31,74536.89,52.9,2012-07-29,No
+1044,48,Engineering,Female,Bachelors,31,86520.87,66.8,2012-08-03,No
+1045,27,Engineering,Male,Bachelors,27,84399.18,64.8,2012-08-08,No
+1046,28,Finance,Male,Masters,12,61139.71,77.1,2012-08-13,No
+1047,55,Sales,Female,Masters,30,92560.49,50.8,2012-08-18,No
+1048,34,Finance,Female,Bachelors,13,58151.73,75.5,2012-08-23,No
+1049,37,Sales,Male,High School,19,87783.35,94.3,2012-08-28,No
+1050,56,Finance,Male,Bachelors,17,46072.37,53.6,2012-09-02,No
+1051,24,Sales,Male,Bachelors,28,,72.3,2012-09-07,No
+1052,22,Finance,Male,High School,5,,62.1,2012-09-12,No
+1053,26,Engineering,Female,Bachelors,31,64894.04,75.1,2012-09-17,Yes
+1054,24,Finance,Male,Masters,28,68000.59,70.2,2012-09-22,Yes
+1055,49,Sales,Female,Bachelors,1,65150.34,62.3,2012-09-27,No
+1056,38,Engineering,Female,Bachelors,22,78032.47,75.9,2012-10-02,No
+1057,46,Finance,Female,High School,18,77511.34,91.7,2012-10-07,No
+1058,54,Engineering,Male,Bachelors,30,90805.37,67.7,2012-10-12,No
+1059,30,HR,Male,High School,4,70024.99,78.6,2012-10-17,No
+1060,56,HR,Male,Bachelors,18,91174.6,54.5,2012-10-22,No
+1061,34,Engineering,Male,Bachelors,33,92076.74,58.5,2012-10-27,No
+1062,51,HR,Female,Bachelors,9,58757.36,75.7,2012-11-01,Yes
+1063,35,HR,Male,Masters,24,88706.33,87.8,2012-11-06,No
+1064,28,Finance,Male,Bachelors,1,90097.87,74.3,2012-11-11,Yes
+1065,34,Sales,Female,High School,10,61612.59,66.2,2012-11-16,Yes
+1066,43,Engineering,Male,Masters,30,64458.47,70.0,2012-11-21,No
+1067,41,Finance,Female,High School,14,87527.45,55.0,2012-11-26,No
+1068,36,Finance,Female,Bachelors,8,60033.14,77.3,2012-12-01,No
+1069,38,Engineering,Female,High School,22,35691.95,80.6,2012-12-06,No
+1070,44,HR,Female,PhD,18,86453.59,64.6,2012-12-11,No
+1071,46,Sales,Female,PhD,8,52564.09,64.4,2012-12-16,No
+1072,45,Sales,Female,PhD,34,83970.4,73.2,2012-12-21,Yes
+1073,99,Engineering,Female,PhD,20,78975.65,64.8,2012-12-26,No
+1074,35,Engineering,Female,Masters,8,65628.99,69.2,2012-12-31,No
+1075,21,HR,Male,Bachelors,27,92070.13,95.2,2013-01-05,No
+1076,45,Sales,Male,Bachelors,6,52561.25,67.0,2013-01-10,Yes
+1077,27,Finance,Male,High School,15,77735.9,65.7,2013-01-15,No
+1078,29,Finance,Male,Masters,15,63828.16,62.2,2013-01-20,No
+1079,44,HR,Female,PhD,32,97098.59,78.9,2013-01-25,No
+1080,21,Engineering,Male,Masters,3,68776.61,67.8,2013-01-30,No
+1081,28,Engineering,Female,Bachelors,3,40862.1,62.2,2013-02-04,No
+1082,44,Marketing,Male,Bachelors,16,88947.68,85.9,2013-02-09,No
+1083,31,HR,Male,Masters,28,70552.66,87.0,2013-02-14,No
+1084,37,Sales,Male,Bachelors,34,100145.04,62.8,2013-02-19,No
+1085,28,Finance,Female,Bachelors,6,67011.17,47.6,2013-02-24,No
+1086,55,Marketing,Male,Masters,26,111487.31,82.1,2013-03-01,No
+1087,55,Finance,Female,Bachelors,27,75277.61,61.8,2013-03-06,No
+1088,53,Marketing,Female,Masters,21,67612.3,79.5,2013-03-11,No
+1089,25,HR,Male,Bachelors,13,66350.45,46.4,2013-03-16,No
+1090,59,Engineering,Male,PhD,6,54942.76,80.7,2013-03-21,No
+1091,48,Finance,Male,Bachelors,21,88298.95,55.5,2013-03-26,No
+1092,27,Finance,Female,Masters,4,29506.41,78.8,2013-03-31,No
+1093,29,Sales,Male,Bachelors,1,36933.72,70.2,2013-04-05,No
+1094,28,Sales,Female,Bachelors,26,59179.55,58.6,2013-04-10,No
+1095,32,Engineering,Female,Bachelors,20,90105.54,65.1,2013-04-15,No
+1096,54,Marketing,Male,,14,98391.04,78.2,2013-04-20,No
+1097,53,Finance,Male,Masters,20,71119.91,,2013-04-25,No
+1098,43,Sales,Female,Bachelors,9,60061.21,77.0,2013-04-30,No
+1099,44,HR,Female,Masters,22,76060.94,93.7,2013-05-05,No
+1100,57,Engineering,Female,High School,4,79513.81,51.2,2013-05-10,No
+1101,55,Finance,Male,PhD,0,38307.64,89.4,2013-05-15,No
+1102,42,Marketing,Female,Bachelors,12,70090.64,71.3,2013-05-20,Yes
+1103,47,Marketing,Male,Masters,20,90553.56,,2013-05-25,No
+1104,55,Engineering,Female,Bachelors,25,,54.0,2013-05-30,No
+1105,21,Engineering,Female,Bachelors,20,76412.47,,2013-06-04,No
+1106,55,Sales,Male,High School,17,88318.83,81.1,2013-06-09,No
+1107,57,Sales,Female,Bachelors,31,34241.82,68.5,2013-06-14,No
+1108,34,Finance,Male,Masters,16,81601.76,88.1,2013-06-19,Yes
+1109,23,Marketing,Male,Masters,34,73826.64,52.6,2013-06-24,No
+1110,21,Finance,Female,Masters,10,31048.61,69.9,2013-06-29,No
+1111,25,Finance,Male,Masters,20,82201.65,55.0,2013-07-04,No
+1112,46,Engineering,Male,Bachelors,25,102225.85,74.4,2013-07-09,No
+1113,34,Marketing,Female,Bachelors,3,55225.93,80.6,2013-07-14,No
+1114,59,Finance,Male,Masters,33,101851.74,65.0,2013-07-19,Yes
+1115,47,Marketing,Male,Bachelors,17,99321.01,38.7,2013-07-24,No
+1116,29,Sales,Male,Bachelors,34,109268.46,72.4,2013-07-29,No
+1117,35,Engineering,Female,Bachelors,28,109719.36,75.2,2013-08-03,Yes
+1118,35,Sales,Male,Bachelors,28,93558.29,74.9,2013-08-08,No
+1119,46,Finance,Female,Bachelors,20,74357.81,84.8,2013-08-13,No
+1120,33,HR,Female,Bachelors,12,36964.62,57.1,2013-08-18,No
+1121,52,Sales,Male,Masters,16,64970.88,78.2,2013-08-23,No
+1122,59,HR,Male,Masters,8,47021.56,84.3,2013-08-28,Yes
+1123,52,HR,Male,PhD,0,94076.97,48.7,2013-09-02,Yes
+1124,24,Engineering,Female,,1,52734.06,,2013-09-07,No
+1125,50,Sales,Male,Bachelors,28,82417.69,63.9,2013-09-12,No
+1126,57,HR,Male,Bachelors,32,93726.74,69.0,2013-09-17,No
+1127,43,Engineering,Male,Masters,9,63884.84,74.2,2013-09-22,No
+1128,59,Marketing,Male,Masters,20,465799.14,64.2,2013-09-27,No
+1129,35,Engineering,Male,,27,68092.31,61.9,2013-10-02,No
+1130,49,Finance,Female,High School,10,67502.93,70.4,2013-10-07,No
+1131,56,Engineering,Female,Bachelors,33,71335.53,57.0,2013-10-12,No
+1132,33,Engineering,Male,Masters,7,,57.0,2013-10-17,No
+1133,52,Finance,Male,Masters,21,62888.16,78.2,2013-10-22,Yes
+1134,27,Engineering,Male,High School,7,60633.34,56.2,2013-10-27,No
+1135,42,Sales,Male,Masters,14,59872.56,78.0,2013-11-01,No
+1136,101,Sales,Female,PhD,16,56936.42,75.6,2013-11-06,No
+1137,22,Marketing,Male,Bachelors,22,49486.29,49.3,2013-11-11,No
+1138,26,HR,Female,PhD,23,74204.1,61.9,2013-11-16,No
+1139,48,Marketing,Female,Bachelors,18,44115.03,84.3,2013-11-21,No
+1140,48,Sales,Male,High School,4,72281.01,58.2,2013-11-26,Yes
+1141,40,Sales,Female,Masters,31,84383.92,64.4,2013-12-01,Yes
+1142,50,Sales,Female,PhD,0,28764.07,75.5,2013-12-06,No
+1143,31,Engineering,Female,Masters,22,69234.24,79.4,2013-12-11,Yes
+1144,48,HR,Female,Masters,7,47761.18,67.0,2013-12-16,No
+1145,45,Engineering,Male,Masters,12,71545.14,62.8,2013-12-21,No
+1146,59,Engineering,Male,Masters,7,85428.11,87.1,2013-12-26,No
+1147,53,Finance,Female,Bachelors,22,41046.9,90.9,2013-12-31,No
+1148,21,Engineering,Male,Bachelors,0,57070.47,81.7,2014-01-05,No
+1149,47,Engineering,Male,Bachelors,23,72817.61,,2014-01-10,No
+1150,33,Marketing,Male,Bachelors,34,97684.12,60.3,2014-01-15,No
+1151,23,Engineering,Male,High School,23,79537.54,60.0,2014-01-20,No
+1152,59,HR,Male,Bachelors,16,55864.55,76.3,2014-01-25,No
+1153,26,Finance,Female,High School,4,52857.03,75.0,2014-01-30,No
+1154,28,Finance,Male,Bachelors,19,57771.53,86.8,2014-02-04,No
+1155,95,Sales,Male,Bachelors,20,92368.13,77.8,2014-02-09,No
+1156,29,Finance,Male,PhD,30,82383.61,52.0,2014-02-14,Yes
+1157,57,Engineering,Male,Masters,10,98221.43,82.6,2014-02-19,No
+1158,53,Sales,Female,Masters,14,66508.11,58.0,2014-02-24,No
+1159,44,Engineering,Female,Masters,18,58448.68,65.4,2014-03-01,No
+1160,35,Finance,Female,Masters,6,33153.14,73.0,2014-03-06,No
+1161,52,Engineering,Female,Bachelors,27,,93.9,2014-03-11,No
+1162,52,Engineering,Male,High School,4,30085.55,107.3,2014-03-16,Yes
+1163,44,HR,Female,High School,4,63408.28,77.3,2014-03-21,No
+1164,32,Sales,Male,Masters,29,90257.05,67.8,2014-03-26,Yes
+1165,59,Sales,Male,Bachelors,31,54438.57,76.4,2014-03-31,No
+1166,22,Sales,Male,Masters,7,77410.69,80.7,2014-04-05,No
+1167,23,Sales,Male,Bachelors,9,54404.9,66.2,2014-04-10,No
+1168,57,Sales,Male,Bachelors,31,85542.27,91.5,2014-04-15,No
+1169,37,Sales,Female,Bachelors,27,108319.97,72.8,2014-04-20,Yes
+1170,22,HR,Female,Masters,16,,76.0,2014-04-25,No
+1171,22,Sales,Female,High School,30,77166.45,78.0,2014-04-30,Yes
+1172,48,Engineering,Female,Masters,7,45258.54,75.1,2014-05-05,No
+1173,43,Finance,Male,Masters,24,37867.32,80.1,2014-05-10,No
+1174,57,Engineering,Female,Bachelors,8,49255.24,62.6,2014-05-15,No
+1175,52,HR,Male,Bachelors,1,52099.66,63.3,2014-05-20,No
+1176,53,Sales,Female,Bachelors,14,49830.77,56.8,2014-05-25,Yes
+1177,21,Sales,Male,High School,2,,75.3,2014-05-30,Yes
+1178,39,Sales,Male,Bachelors,3,59083.33,79.3,2014-06-04,Yes
+1179,22,Sales,Female,High School,13,62652.59,75.5,2014-06-09,No
+1180,46,Sales,Male,Masters,24,64899.95,90.1,2014-06-14,No
+1181,52,Sales,Male,Bachelors,9,66135.78,69.9,2014-06-19,No
+1182,26,Sales,Female,Masters,20,80954.93,78.0,2014-06-24,No
+1183,52,Sales,Male,Masters,11,,,2014-06-29,No
+1184,24,Engineering,Female,High School,26,103796.78,65.4,2014-07-04,No
+1185,31,Sales,Female,High School,1,54125.41,78.3,2014-07-09,No
+1186,37,Engineering,Female,Bachelors,12,66139.29,80.2,2014-07-14,No
+1187,58,Engineering,Male,Bachelors,31,95647.86,66.5,2014-07-19,No
+1188,44,HR,Male,Masters,30,86197.89,69.1,2014-07-24,Yes
+1189,25,Sales,Male,High School,15,85656.46,51.8,2014-07-29,No
+1190,54,Marketing,Female,Bachelors,31,88068.23,65.7,2014-08-03,No
+1191,26,HR,Male,Masters,31,71876.13,80.7,2014-08-08,No
+1192,42,Sales,Female,Masters,33,91207.06,,2014-08-13,Yes
+1193,31,Finance,Female,Masters,10,43412.93,76.0,2014-08-18,No
+1194,36,Finance,Male,,9,65054.07,70.6,2014-08-23,No
+1195,53,Sales,Female,Masters,14,67001.86,70.1,2014-08-28,Yes
+1196,29,Sales,Male,High School,16,,62.1,2014-09-02,No
+1197,26,Marketing,Male,Bachelors,17,67986.32,78.4,2014-09-07,No
+1198,36,Marketing,Male,Bachelors,8,28326.72,75.1,2014-09-12,Yes
+1199,49,Sales,Male,High School,24,66722.95,75.9,2014-09-17,Yes
+1200,23,Sales,Male,Bachelors,13,68371.21,63.7,2014-09-22,No
+1201,40,Engineering,Female,High School,24,79477.42,44.2,2014-09-27,No
+1202,56,Engineering,Female,Masters,21,55401.85,83.2,2014-10-02,No
+1203,39,HR,Female,Bachelors,29,103882.74,64.3,2014-10-07,No
+1204,46,Engineering,Male,High School,19,56508.85,59.6,2014-10-12,Yes
+1205,23,Engineering,Male,Bachelors,20,90450.23,78.3,2014-10-17,No
+1206,39,Marketing,Male,Masters,31,90589.5,,2014-10-22,No
+1207,40,Sales,Female,Bachelors,20,61367.91,82.7,2014-10-27,Yes
+1208,52,Sales,Male,Masters,34,117555.6,77.4,2014-11-01,No
+1209,27,Marketing,Female,Bachelors,31,61414.54,78.2,2014-11-06,No
+1210,53,Finance,Female,Bachelors,29,97644.78,53.6,2014-11-11,No
+1211,59,Engineering,Male,High School,11,82910.48,84.5,2014-11-16,Yes
+1212,38,Engineering,Male,Bachelors,17,58228.84,73.1,2014-11-21,No
+1213,21,Sales,Female,,20,98064.38,65.6,2014-11-26,No
+1214,31,Engineering,Male,Bachelors,12,61299.16,71.7,2014-12-01,No
+1215,48,Engineering,Female,PhD,20,78196.49,48.7,2014-12-06,Yes
+1216,45,Sales,Male,Bachelors,7,65985.79,74.9,2014-12-11,No
+1217,43,Sales,Male,High School,6,57982.44,57.6,2014-12-16,No
+1218,51,Engineering,Female,Masters,22,89394.55,53.8,2014-12-21,No
+1219,50,Sales,Male,Bachelors,31,97182.8,51.7,2014-12-26,No
+1220,55,Engineering,Female,Bachelors,10,32526.42,83.4,2014-12-31,No
+1221,27,Sales,Male,Bachelors,21,97378.12,62.4,2015-01-05,No
+1222,36,Engineering,Female,Masters,21,43975.14,88.4,2015-01-10,No
+1223,46,Sales,Female,Bachelors,24,,63.6,2015-01-15,No
+1224,22,Finance,Male,PhD,21,94180.69,49.5,2015-01-20,No
+1225,21,HR,Female,Bachelors,27,59662.6,56.6,2015-01-25,No
+1226,32,HR,Male,Bachelors,28,72805.34,84.8,2015-01-30,No
+1227,25,Marketing,Male,Masters,12,45897.32,68.1,2015-02-04,No
+1228,57,Engineering,Male,Masters,17,66431.42,63.4,2015-02-09,No
+1229,52,Sales,Female,Bachelors,1,50355.38,71.9,2015-02-14,No
+1230,29,Engineering,Female,Bachelors,28,94233.89,76.0,2015-02-19,No
+1231,55,HR,Male,Bachelors,20,96585.56,83.4,2015-02-24,No
+1232,39,Marketing,Male,Masters,14,92722.31,87.4,2015-03-01,No
+1233,36,Engineering,Female,Masters,26,68280.98,65.7,2015-03-06,No
+1234,23,Sales,Male,Masters,30,78234.01,54.1,2015-03-11,No
+1235,40,Engineering,Male,PhD,14,167841.495,65.0,2015-03-16,No
+1236,44,Engineering,Female,PhD,22,60294.34,73.1,2015-03-21,No
+1237,53,HR,Male,Masters,23,93067.33,58.4,2015-03-26,No
+1238,44,Engineering,Female,High School,12,94880.49,58.5,2015-03-31,No
+1239,31,Engineering,Male,Bachelors,21,51681.72,74.1,2015-04-05,No
+1240,28,Finance,Female,Bachelors,32,73135.64,69.4,2015-04-10,No
+1241,56,HR,Male,Bachelors,2,56324.7,70.4,2015-04-15,Yes
+1242,58,Sales,Male,Bachelors,18,76242.9,60.9,2015-04-20,No
+1243,40,Sales,Female,Masters,22,60227.14,67.2,2015-04-25,No
+1244,55,Sales,Male,High School,28,87833.1,58.9,2015-04-30,Yes
+1245,45,Sales,Female,Bachelors,29,72570.89,80.7,2015-05-05,No
+1246,55,Sales,Male,Bachelors,24,76339.86,82.4,2015-05-10,No
+1247,45,Sales,Female,Masters,7,71133.12,47.8,2015-05-15,No
+1248,49,Engineering,Female,High School,15,68615.6,58.8,2015-05-20,No
+1249,38,Sales,Female,Bachelors,7,53445.05,52.0,2015-05-25,No
+1250,38,Finance,Female,Masters,0,,62.2,2015-05-30,No
+1251,22,Sales,Male,Bachelors,4,57009.47,69.0,2015-06-04,No
+1252,55,Engineering,Male,Bachelors,2,50139.8,52.6,2015-06-09,No
+1253,36,Engineering,Female,High School,0,50341.67,58.9,2015-06-14,Yes
+1254,56,Finance,Female,High School,3,86475.65,58.0,2015-06-19,No
+1255,53,Sales,Female,Bachelors,34,,72.5,2015-06-24,No
+1256,24,Engineering,Male,High School,31,77581.35,,2015-06-29,No
+1257,53,Finance,Male,Masters,33,97245.18,61.3,2015-07-04,No
+1258,34,Finance,Male,High School,24,70591.25,72.1,2015-07-09,No
+1259,41,Marketing,Male,Masters,9,84216.24,63.4,2015-07-14,No
+1260,40,Sales,Female,Masters,20,79653.56,66.7,2015-07-19,No
+1261,28,Sales,Female,Masters,26,76468.56,90.1,2015-07-24,No
+1262,27,HR,Female,Masters,26,86458.9,86.1,2015-07-29,No
+1263,23,Finance,Male,Bachelors,1,27624.23,54.4,2015-08-03,No
+1264,37,Engineering,Male,Bachelors,12,204831.855,80.0,2015-08-08,Yes
+1265,53,Engineering,Male,Bachelors,8,40709.35,79.7,2015-08-13,No
+1266,32,Sales,Female,Masters,21,76472.98,56.2,2015-08-18,No
+1267,42,Marketing,Female,Bachelors,25,108685.27,79.8,2015-08-23,No
+1268,42,Sales,Male,Masters,11,105063.4,88.5,2015-08-28,Yes
+1269,50,Engineering,Female,High School,16,,56.5,2015-09-02,No
+1270,58,Engineering,Male,Bachelors,13,75715.2,59.0,2015-09-07,No
+1271,58,Engineering,Male,Masters,13,34280.96,82.2,2015-09-12,No
+1272,28,Sales,Female,Bachelors,33,74931.87,73.3,2015-09-17,Yes
+1273,47,Sales,Male,High School,19,57919.89,76.6,2015-09-22,No
+1274,47,HR,Female,Bachelors,10,52824.74,74.1,2015-09-27,No
+1275,54,Engineering,Male,Masters,15,65473.41,74.7,2015-10-02,No
+1276,41,HR,Female,PhD,30,73502.37,54.1,2015-10-07,No
+1277,50,Sales,Female,High School,5,23872.6,82.6,2015-10-12,No
+1278,53,Engineering,Female,Masters,18,84662.38,84.0,2015-10-17,No
+1279,48,Engineering,Male,Masters,3,38390.63,67.2,2015-10-22,Yes
+1280,53,Sales,Male,Masters,3,62006.44,69.5,2015-10-27,No
+1281,25,Engineering,Female,High School,19,109433.49,51.6,2015-11-01,No
+1282,39,Sales,Female,Masters,9,46551.08,76.2,2015-11-06,No
+1283,24,Sales,Male,Bachelors,23,30154.82,76.9,2015-11-11,No
+1284,55,Finance,Male,High School,34,80451.92,,2015-11-16,Yes
+1285,37,Engineering,Male,Masters,25,97317.27,83.5,2015-11-21,No
+1286,48,Marketing,Female,Masters,20,108250.25,66.0,2015-11-26,No
+1287,50,Sales,Male,Bachelors,20,50868.11,76.8,2015-12-01,Yes
+1288,49,HR,Male,Masters,9,72040.59,57.8,2015-12-06,No
+1289,26,Marketing,Female,Bachelors,3,49324.41,69.7,2015-12-11,No
+1290,55,HR,Male,Masters,19,70192.93,67.9,2015-12-16,Yes
+1291,57,Engineering,Male,Bachelors,16,116998.18,72.7,2015-12-21,No
+1292,44,Engineering,Male,Masters,6,33346.53,65.6,2015-12-26,No
+1293,49,Engineering,Female,High School,3,62267.31,68.4,2015-12-31,No
+1294,51,Finance,Female,Bachelors,28,88618.48,79.9,2016-01-05,No
+1295,55,Marketing,Female,High School,13,86244.15,64.8,2016-01-10,No
+1296,53,Finance,Female,Bachelors,2,58563.7,50.7,2016-01-15,No
+1297,41,Sales,Female,High School,23,81244.91,91.0,2016-01-20,No
+1298,52,Marketing,Female,PhD,15,61450.33,86.6,2016-01-25,Yes
+1299,43,Finance,Female,Masters,3,62544.28,54.5,2016-01-30,No
+1300,53,Sales,Male,Masters,23,69522.54,78.3,2016-02-04,No
+1301,23,Sales,Male,High School,33,95888.29,64.0,2016-02-09,No
+1302,38,Marketing,Female,Bachelors,29,74447.01,73.2,2016-02-14,No
+1303,45,Engineering,Male,Bachelors,17,,73.5,2016-02-19,No
+1304,51,Marketing,Male,Masters,18,70673.27,67.2,2016-02-24,No
+1305,23,Sales,Female,PhD,30,102268.9,60.6,2016-02-29,No
+1306,44,Marketing,Male,PhD,18,70274.91,61.7,2016-03-05,Yes
+1307,52,Sales,Male,PhD,18,39285.42,59.0,2016-03-10,Yes
+1308,42,Sales,Male,Bachelors,21,96614.59,60.0,2016-03-15,No
+1309,43,Sales,Male,PhD,23,59396.82,69.2,2016-03-20,No
+1310,22,Marketing,Male,Bachelors,11,53132.21,61.4,2016-03-25,No
+1311,47,HR,Female,Masters,29,316701.45,78.2,2016-03-30,No
+1312,22,Engineering,Female,Bachelors,30,106739.89,,2016-04-04,No
+1313,46,Engineering,Female,Bachelors,18,32757.86,63.0,2016-04-09,No
+1314,37,Finance,Male,Bachelors,29,137579.47,72.9,2016-04-14,No
+1315,53,Engineering,Female,Bachelors,32,102809.02,76.0,2016-04-19,Yes
+1316,29,Marketing,Male,Masters,17,74318.3,75.7,2016-04-24,Yes
+1317,59,Engineering,Male,Bachelors,27,78311.91,70.9,2016-04-29,No
+1318,49,Engineering,Male,Bachelors,10,69139.97,78.9,2016-05-04,No
+1319,46,Engineering,Male,Bachelors,32,93180.2,75.8,2016-05-09,No
+1320,55,Engineering,Female,Bachelors,16,81013.88,55.1,2016-05-14,Yes
+1321,45,Marketing,Female,Bachelors,5,69500.88,80.4,2016-05-19,Yes
+1322,44,Engineering,Male,Bachelors,3,59312.45,80.6,2016-05-24,No
+1323,33,Sales,Female,Masters,19,68547.91,60.8,2016-05-29,No
+1324,27,Finance,Male,Masters,26,75677.08,70.5,2016-06-03,Yes
+1325,56,Engineering,Female,Masters,14,64091.65,78.2,2016-06-08,No
+1326,40,Engineering,Female,Masters,5,79907.86,67.5,2016-06-13,Yes
+1327,21,Finance,Male,Bachelors,13,77384.02,82.9,2016-06-18,No
+1328,28,HR,Female,High School,10,18000.0,98.4,2016-06-23,No
+1329,36,Sales,Male,Masters,8,74006.21,60.6,2016-06-28,Yes
+1330,34,Finance,Female,Masters,25,81005.25,53.4,2016-07-03,No
+1331,32,HR,Male,Bachelors,15,68163.24,73.6,2016-07-08,No
+1332,43,Engineering,Male,Bachelors,4,51606.67,78.7,2016-07-13,No
+1333,35,Sales,Female,Bachelors,9,83334.03,67.2,2016-07-18,No
+1334,48,Marketing,Female,Bachelors,2,73855.48,87.4,2016-07-23,Yes
+1335,54,HR,Male,Masters,12,51888.2,53.9,2016-07-28,No
+1336,22,Engineering,Female,Masters,29,,78.3,2016-08-02,No
+1337,52,Finance,Female,Masters,5,42010.18,62.7,2016-08-07,No
+1338,43,Marketing,Male,PhD,16,44566.87,90.6,2016-08-12,No
+1339,42,Sales,Male,PhD,18,59919.09,93.9,2016-08-17,No
+1340,45,Engineering,Female,Masters,34,,60.8,2016-08-22,No
+1341,42,Sales,Male,High School,25,94656.25,63.4,2016-08-27,Yes
+1342,42,Marketing,Male,Bachelors,4,67835.54,80.3,2016-09-01,Yes
+1343,26,Sales,Male,Bachelors,28,93251.72,65.4,2016-09-06,No
+1344,35,Engineering,Female,Bachelors,19,81391.21,69.5,2016-09-11,No
+1345,57,Marketing,Female,Masters,20,61453.33,70.3,2016-09-16,No
+1346,53,Finance,Male,High School,9,70874.61,47.0,2016-09-21,No
+1347,28,Engineering,Female,Bachelors,4,,69.8,2016-09-26,No
+1348,25,Marketing,Male,High School,5,73077.24,61.7,2016-10-01,Yes
+1349,59,Sales,Female,Bachelors,25,98900.44,64.1,2016-10-06,No
+1350,24,Marketing,Male,High School,3,70449.47,87.3,2016-10-11,No
+1351,26,Sales,Male,Bachelors,34,91926.07,54.9,2016-10-16,No
+1352,52,Engineering,Female,Bachelors,0,74262.7,79.8,2016-10-21,No
+1353,50,Marketing,Male,Masters,23,75222.62,66.7,2016-10-26,No
+1354,55,Sales,Female,Bachelors,5,43626.26,66.6,2016-10-31,No
+1355,36,Sales,Female,Bachelors,30,79064.79,79.5,2016-11-05,No
+1356,33,Marketing,Male,Bachelors,19,58691.75,74.1,2016-11-10,No
+1357,50,Marketing,Male,PhD,23,63546.79,76.8,2016-11-15,No
+1358,39,HR,Female,Masters,24,73998.66,81.6,2016-11-20,No
+1359,37,HR,Male,Bachelors,20,58736.44,66.0,2016-11-25,No
+1360,39,Engineering,Male,Masters,29,75556.69,62.7,2016-11-30,No
+1361,48,Sales,Male,Masters,23,41614.94,57.0,2016-12-05,No
+1362,46,Engineering,Male,,29,84939.29,60.1,2016-12-10,No
+1363,57,Sales,Male,Bachelors,21,73921.7,105.4,2016-12-15,Yes
+1364,46,Finance,Female,Bachelors,27,64592.4,84.9,2016-12-20,No
+1365,43,HR,Female,Bachelors,6,72266.42,53.8,2016-12-25,No
+1366,29,Engineering,Male,Masters,34,102476.26,54.1,2016-12-30,No
+1367,32,Engineering,Male,Bachelors,27,50363.92,75.8,2017-01-04,No
+1368,21,Finance,Male,Masters,13,52970.95,76.6,2017-01-09,No
+1369,21,Sales,Female,Masters,9,49255.44,76.6,2017-01-14,No
+1370,54,HR,Male,Bachelors,15,51581.74,66.9,2017-01-19,Yes
+1371,52,Engineering,Female,Masters,15,83430.55,68.5,2017-01-24,No
+1372,45,HR,Female,Bachelors,30,78511.13,73.9,2017-01-29,No
+1373,21,Sales,Female,,24,71838.73,71.0,2017-02-03,No
+1374,36,Finance,Male,Masters,12,133787.16,43.4,2017-02-08,No
+1375,59,Finance,Female,PhD,5,70937.52,67.2,2017-02-13,No
+1376,25,Engineering,Male,Masters,8,39893.35,59.8,2017-02-18,No
+1377,42,HR,Female,Bachelors,19,73178.79,72.1,2017-02-23,No
+1378,49,Finance,Male,Masters,17,75292.78,,2017-02-28,No
+1379,23,Marketing,Female,High School,20,97491.85,74.4,2017-03-05,Yes
+1380,32,Sales,Male,Masters,3,34141.23,66.2,2017-03-10,Yes
+1381,46,Engineering,Female,PhD,32,29448.78,81.1,2017-03-15,Yes
+1382,36,HR,Male,High School,26,81709.29,75.8,2017-03-20,No
+1383,57,Engineering,Male,Bachelors,6,92809.2,75.0,2017-03-25,Yes
+1384,42,Marketing,Male,Bachelors,5,81801.03,77.3,2017-03-30,No
+1385,49,Finance,Male,Masters,14,71373.87,94.7,2017-04-04,No
+1386,34,Finance,Female,Bachelors,17,61450.55,56.4,2017-04-09,No
+1387,48,Engineering,Female,PhD,31,97428.21,75.7,2017-04-14,No
+1388,25,Sales,Male,High School,10,46476.17,58.9,2017-04-19,No
+1389,50,Finance,Female,Bachelors,19,80674.44,76.7,2017-04-24,No
+1390,25,Marketing,Male,Bachelors,23,84798.46,59.0,2017-04-29,No
+1391,32,Sales,Male,PhD,14,86683.78,65.0,2017-05-04,No
+1392,36,Finance,Female,Bachelors,6,110073.88,66.5,2017-05-09,No
+1393,46,Finance,Male,PhD,20,80063.49,81.7,2017-05-14,No
+1394,46,Engineering,Male,Bachelors,25,307523.925,81.0,2017-05-19,No
+1395,41,HR,Female,Masters,13,66239.66,55.1,2017-05-24,No
+1396,59,Engineering,Male,Bachelors,20,41156.63,70.7,2017-05-29,Yes
+1397,56,Sales,Male,Masters,17,57795.16,61.5,2017-06-03,Yes
+1398,53,Engineering,Male,Masters,4,51232.92,54.9,2017-06-08,No
+1399,50,Marketing,Male,Masters,2,47366.41,67.4,2017-06-13,No
+1400,57,Sales,Female,Bachelors,22,77542.39,66.3,2017-06-18,No
+1401,43,Engineering,Female,Masters,25,62696.44,99.1,2017-06-23,No
+1402,30,Engineering,Female,High School,23,95878.55,75.2,2017-06-28,No
+1403,25,Engineering,Male,Bachelors,18,71203.73,53.5,2017-07-03,No
+1404,56,Finance,Male,Bachelors,24,76432.59,63.2,2017-07-08,No
+1405,54,Engineering,Female,Bachelors,20,67097.9,82.3,2017-07-13,No
+1406,51,Engineering,Male,Masters,11,67693.43,95.1,2017-07-18,No
+1407,30,Marketing,Male,Masters,32,98651.77,51.0,2017-07-23,No
+1408,39,Engineering,Male,Masters,3,42091.66,47.4,2017-07-28,No
+1409,52,Sales,Male,Bachelors,6,48553.9,92.5,2017-08-02,No
+1410,21,Engineering,Female,Bachelors,21,68432.93,74.7,2017-08-07,No
+1411,25,Sales,Female,Masters,32,59574.32,59.6,2017-08-12,No
+1412,24,Sales,Female,Masters,16,54653.36,76.4,2017-08-17,No
+1413,36,Engineering,Male,High School,23,67128.02,38.4,2017-08-22,Yes
+1414,44,Engineering,Female,Bachelors,33,100439.01,70.0,2017-08-27,No
+1415,36,Finance,Female,Masters,27,84026.1,73.9,2017-09-01,No
+1416,22,Engineering,Male,Bachelors,21,77384.62,81.1,2017-09-06,No
+1417,48,HR,Male,Bachelors,16,84716.16,57.8,2017-09-11,No
+1418,52,HR,Female,Masters,33,82227.31,71.0,2017-09-16,No
+1419,47,Sales,Female,Masters,5,66528.37,58.9,2017-09-21,No
+1420,40,HR,Female,High School,5,57642.01,73.1,2017-09-26,No
+1421,44,Sales,Female,Bachelors,33,89476.52,59.3,2017-10-01,Yes
+1422,32,Finance,Male,Bachelors,0,44510.34,65.1,2017-10-06,Yes
+1423,55,Sales,Female,Masters,9,19201.29,58.1,2017-10-11,No
+1424,53,Engineering,Female,Masters,20,70582.98,77.8,2017-10-16,No
+1425,53,Sales,Male,Bachelors,4,84209.47,80.3,2017-10-21,No
+1426,57,Finance,Female,Bachelors,1,72571.88,67.2,2017-10-26,No
+1427,32,Engineering,Male,Bachelors,21,91277.15,70.5,2017-10-31,No
+1428,23,HR,Male,High School,1,78150.35,52.6,2017-11-05,No
+1429,21,Sales,Male,Bachelors,9,64695.84,66.4,2017-11-10,No
+1430,53,Marketing,Female,Bachelors,33,88251.68,69.4,2017-11-15,No
+1431,30,Sales,Female,Bachelors,15,57382.27,101.4,2017-11-20,No
+1432,49,Finance,Male,Bachelors,21,68210.69,56.7,2017-11-25,No
+1433,33,Sales,Female,,11,75983.88,87.6,2017-11-30,No
+1434,32,Sales,Female,Masters,23,97369.92,82.0,2017-12-05,No
+1435,51,Sales,Male,Bachelors,9,60589.97,73.4,2017-12-10,Yes
+1436,22,Engineering,Male,PhD,34,77496.59,91.1,2017-12-15,No
+1437,55,Engineering,Female,Bachelors,31,82909.5,74.5,2017-12-20,No
+1438,43,Sales,Male,Masters,6,71221.72,74.7,2017-12-25,Yes
+1439,37,Marketing,Female,High School,20,47010.61,69.4,2017-12-30,No
+1440,46,Engineering,Female,Masters,19,,84.7,2018-01-04,No
+1441,28,Engineering,Female,Masters,25,67590.34,83.2,2018-01-09,Yes
+1442,49,Engineering,Female,Bachelors,3,35727.18,62.5,2018-01-14,No
+1443,46,Engineering,Male,Bachelors,21,64753.48,54.2,2018-01-19,No
+1444,30,Engineering,Male,Masters,14,64939.95,67.6,2018-01-24,Yes
+1445,46,Sales,Male,,20,64841.53,60.4,2018-01-29,No
+1446,54,Sales,Male,Masters,14,93744.42,69.2,2018-02-03,No
+1447,27,Finance,Female,Masters,21,79781.41,84.8,2018-02-08,Yes
+1448,24,Finance,Female,Masters,27,84708.54,64.5,2018-02-13,No
+1449,31,Engineering,Male,Masters,13,77899.73,69.5,2018-02-18,No
+1450,49,Sales,Female,Bachelors,26,57901.0,70.7,2018-02-23,Yes
+1451,56,HR,Female,Masters,27,98004.01,80.2,2018-02-28,Yes
+1452,45,Engineering,Female,High School,25,76136.24,43.0,2018-03-05,No
+1453,41,Sales,Male,Bachelors,1,67968.65,62.7,2018-03-10,No
+1454,56,Sales,Male,Masters,24,57306.57,72.5,2018-03-15,No
+1455,30,Marketing,Male,Bachelors,2,28832.34,84.4,2018-03-20,No
+1456,57,HR,Female,Masters,7,76022.01,64.1,2018-03-25,No
+1457,29,Sales,Male,Bachelors,32,90575.37,47.5,2018-03-30,No
+1458,44,Sales,Male,Masters,34,69363.07,77.4,2018-04-04,No
+1459,55,Sales,Male,PhD,5,43846.06,62.4,2018-04-09,No
+1460,55,HR,Male,Bachelors,22,95057.83,55.7,2018-04-14,No
+1461,56,Sales,Male,Masters,24,55190.59,62.5,2018-04-19,Yes
+1462,38,Sales,Male,PhD,18,100768.11,67.8,2018-04-24,Yes
+1463,59,Marketing,Female,High School,4,42388.83,62.7,2018-04-29,No
+1464,52,Sales,Female,Bachelors,10,75491.05,43.5,2018-05-04,No
+1465,44,HR,Male,Bachelors,11,58984.87,80.8,2018-05-09,No
+1466,43,Sales,Male,Bachelors,9,73957.37,85.3,2018-05-14,No
+1467,52,Sales,Female,High School,7,51505.95,77.8,2018-05-19,No
+1468,57,Sales,Female,High School,23,72769.73,56.3,2018-05-24,No
+1469,32,Marketing,Male,Masters,27,80036.55,67.6,2018-05-29,No
+1470,33,Finance,Male,PhD,20,54960.63,69.9,2018-06-03,No
+1471,43,Marketing,Male,Masters,7,74634.84,77.2,2018-06-08,No
+1472,45,Engineering,Male,Masters,8,52962.16,,2018-06-13,No
+1473,55,HR,Female,Bachelors,14,63485.2,61.2,2018-06-18,No
+1474,50,Sales,Male,PhD,17,52401.71,71.0,2018-06-23,No
+1475,37,Engineering,Male,Bachelors,19,25977.99,75.5,2018-06-28,No
+1476,40,Finance,Male,PhD,5,,87.5,2018-07-03,No
+1477,45,Sales,Male,PhD,11,108327.08,78.5,2018-07-08,No
+1478,42,Sales,Female,Masters,1,70022.88,79.5,2018-07-13,Yes
+1479,33,Sales,Female,Bachelors,6,60053.31,71.0,2018-07-18,No
+1480,39,Sales,Female,Bachelors,15,63767.97,86.9,2018-07-23,No
+1481,56,Sales,Male,Bachelors,2,57204.39,,2018-07-28,No
+1482,32,HR,Male,Bachelors,2,66648.14,59.7,2018-08-02,No
+1483,39,Engineering,Female,Bachelors,26,57145.37,86.8,2018-08-07,No
+1484,32,Finance,Male,High School,32,103857.79,78.4,2018-08-12,No
+1485,29,Marketing,Male,Masters,27,92176.86,64.7,2018-08-17,No
+1486,27,Engineering,Female,Bachelors,0,67927.34,64.2,2018-08-22,No
+1487,48,Sales,Female,Bachelors,7,69192.56,73.6,2018-08-27,No
+1488,34,Engineering,Female,Bachelors,31,83253.1,75.6,2018-09-01,No
+1489,51,HR,Female,Masters,3,69811.5,72.4,2018-09-06,No
+1490,39,Sales,Male,Masters,29,91752.65,73.7,2018-09-11,Yes
+1491,36,HR,Male,High School,5,53127.27,90.4,2018-09-16,No
+1492,25,Engineering,Female,Masters,18,60875.17,82.9,2018-09-21,No
+1493,55,Engineering,Male,High School,31,84733.41,72.3,2018-09-26,No
+1494,32,Engineering,Female,High School,8,90082.36,81.3,2018-10-01,Yes
+1495,45,Engineering,Female,,11,42596.07,57.6,2018-10-06,No
+1496,41,Finance,Male,High School,10,37584.55,74.8,2018-10-11,No
+1497,56,Marketing,Female,Bachelors,15,71465.7,91.7,2018-10-16,Yes
+1498,43,Sales,Male,PhD,0,55915.98,67.4,2018-10-21,No
+1499,36,Finance,Male,Bachelors,20,76120.15,59.8,2018-10-26,No
+1500,59,Engineering,Male,High School,29,85491.16,62.2,2018-10-31,No
+1305,23,Sales,Female,PhD,30,102268.9,60.6,2016-02-29,No
+1341,42,Sales,Male,High School,25,94656.25,63.4,2016-08-27,Yes
+1048,34,Finance,Female,Bachelors,13,58151.73,75.5,2012-08-23,No
+1068,36,Finance,Female,Bachelors,8,60033.14,77.3,2012-12-01,No
